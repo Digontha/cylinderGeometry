@@ -5,7 +5,7 @@ import React, { useRef } from 'react';
 import * as THREE from 'three';
 
 const Cyl = () => {
-    let tex = useTexture("./cur.png");
+    let tex = useTexture("./cur-2.png");
     tex.needsUpdate = true;
     let cyl = useRef(null);
     useFrame((state, delta) => {
